@@ -1,5 +1,5 @@
 
-<!--online SPECIAL SECTION CAMPAIGN SINGLE DARK EMAIL - ALL-TEMPLATE - EDITION 02.20.2025 -->
+<!--online SPECIAL SECTION CAMPAIGN TRENTON EMAIL - ALL-TEMPLATE - EDITION 02.24.2025 -->
 <html style="opacity: 1;" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml"><head>
 
     <!--[if gte mso 9]><xml>
@@ -41,8 +41,9 @@
 			PREHEADER TEXT INTRO:  Notes: The preheader is the short description that shows up in the email preview. Ours will include the date and section title, but that has already been updated above.
 				Preheader Text replacement goes here.  
 
-			HEADLINE OF CAMPAIGN:  Notes: Text between the accent2 designators will be highlighted. Use the tag <br> to strategically break text into multiple lines. Place <br> between the words you want to force break.
-				Call to <accent2>action!</accent2>   
+			HEADLINE OF CAMPAIGN:  Notes: Text between the accentSite designators will be highlighted. Use the tag <br> to strategically break text into multiple lines. Place <br> between the words you want to force break.
+				Find:  Call to <accentSite>action!</accentSite>
+                Replace with your headline: 
 
 			INTRO: Notes: Replace 'Strong intro lines intro intro intro' with the text you are bolding at the beginning of the Intro.
 				<strong>Strong intro lines intro intro intro.</strong> Ur autemos sinvellant, simusan ditaquunt repudit, simolup tatur, coribusae qui demporum qui res alitas sequi blabo. Et harum qui omnihiciae odi volut hicatur epudit, que et ex et fugiae ilis utem re, voluptat ex esciis consequ.
@@ -53,13 +54,13 @@
 			
 				STEP 1: Replacing the img drop shadow. Just like above, select the text below (that starts with <img and ends with "/>
 				go to 'Edit' then 'Select in Files' to select those lines throughout the email template set. Proceed.
-					<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" height="600px" width="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
+					<img src="https://placehold.co/800x1000.jpg" height="600px" width="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
 				Select the text below and paste in the field using 'Replace in Text'.
-					<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
+					<img src="https://placehold.co/800x1000.jpg" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
 
 				STEP 2: Replacing the image with the new campaign image. 
 				Use the instuctions above, to 'Find in Files' and 'Replace in Files'. Use this the line below to 'Find in Files'. Replace it with the url of your new art (that you've loaded into SailThru) by using 'Replace in Files'. (*be sure that your url is correct, leaving off an h at the beginning or an f at the end means it won't load.)
-				https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif
+				https://placehold.co/800x1000.jpg
 
 /* TEMPLATE LOCALIZATION - ONLY USE THIS TO UPDATE TEMPLATE LOCALIZATIONS - CQ WITH SEAN  *
 
@@ -101,17 +102,20 @@
 
             https://www.nj.com/privacy-policy/   (Privacy policy in Footer ribbon)
 
-            75FF00   (group color branding - Light)
-
-            3D8500   (group color branding - Dark)
-
             NJ.com   (replace with the url of the dot.com, such as nj.com, etc)
-
-        Other:  
 
             DATE FOR COPYRIGHT
                 ©2025
                     (replace with © + new year)
+
+
+            FIND/REPLACE COLOR BRANDING TEMPLATE
+
+                75FF00   (group color branding - Light)
+
+                65d305   (group color branding - Mid)
+
+                3D8500   (group color branding - Dark)
 			
 
 		/* CLIENT-SPECIFIC STYLES */
@@ -120,18 +124,21 @@
 		img { -ms-interpolation-mode: bicubic; }
 		strong {font-weight: 900 !important;}
 		:hover.hoverText {background-color: #fbff04 !important; text-decoration-color: #fbff04 !important; margin: -0.1em -0.4em !important; padding: 0.1em 0.4em !important;}
-        :hover.hoverClicks {background-color: #3D8500 !important; text-decoration-color: #3D8500 !important; margin: -1.0em -1.0em !important; padding: 1.0em 1.0em !important; color: #ffffff !important; font-weight: 900 !important;}
+        .hoverClicks {background-color: transparent !important; margin: -1.0em -1.0em !important; padding: 1.0em 1.0em !important; -webkit-text-stroke: 0.0px; font-weight: 500; letter-spacing: 0.5 !important; transition: all 0.2s ease-out;}
+        :hover.hoverClicks {background-color: #3D8500 !important; text-decoration-color: #242424 !important; margin: -1.6em -1.0em !important; padding: 1.6em 1.0em !important;  color: #ffffff !important; -webkit-text-stroke: 0.5px !important; letter-spacing: 0.5 !important; z-index: 5 !important; position: relative !important; box-shadow: 0px 0px 0px 6px #75FF00;  transition: all 0.2s ease-out;}
         .hoverRule {z-index: -5 !important;}
-        .button:hover {box-shadow: 0 0 5px #1111119d, 0 0 10px #ffffff9d, 0 0 32px rgba(243, 255, 175, 0.53);}
+        .button:hover {box-shadow: 0 0 65px #000000, 0 0 10px #0000009d, 0 0 32px rgba(0, 0, 0, 0.53); transition: 0.36s ease-in-out; -moz-border-radius: 24px !important; -webkit-border-radius: 24px !important; border-radius: 24px !important; border: 2px solid #75FF00 !important;}
+        .button {transition: 0.36s ease-in-out !important;}
         .list-type {padding-bottom: 5px;}
         .liststack { width:140px!important; display:block!important; padding: 0 !important; margin-left: 0px !important;}
-        highlight { text-align: center !important; display: inline !important; }
-        highlight:hover {color: #ffffff !important; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fbff04, 0 0 82px #fbff04,0 0 92px #fbff04; }
+        highlight { text-align: center !important; display: inline !important; cursor: default !important;}
+        highlight:hover {color: #ffffff !important; -webkit-text-stroke: 0.75px rgb(255, 255, 255); text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000, 1px 1px 0 #000;}
         bullet { display: inline !important; max-height:none !important;  }
         bulletHide { width: 0px !important; display: none !important; }
-        .hoverFooterBttn {-webkit-filter: opacity(80%);  filter: opacity(80%); transition: 0.4s;}
-        .hoverFooterBttn:hover {-webkit-filter: opacity(100%);  filter: opacity(100%); transition: 0.4s;}
-        :hover.helpButton {mix-blend-mode: normal !important;}
+        .hoverFooterBttn:hover {-webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.20), 0px 0px 10px 16px rgba(0,0,0,0.10); box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.20), 0px 0px 10px 16px rgba(0,0,0,0.10); transition: box-shadow 0.3s ease-in-out; }
+        .hoverFooterBttn {-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0); transition: box-shadow 0.3s ease-in-out; }
+        .helpButton {filter: drop-shadow(0px 0px 0px transparent) !important; transition: filter  0.3s ease-in-out;}
+        :hover.helpButton {filter: drop-shadow(0px 0px 6px #000000a1) !important; transition: filter 0.3s ease-in-out;}
 		/* RESET STYLES */
 		img { border: 0; outline: none; text-decoration: none; }
 		table { border-collapse: collapse !important; }
@@ -282,7 +289,7 @@
 		/*INSERT ADDITIONAL MOBILE STYLES ABOVE THIS LINE*/
 		</style>		
 	</head>
-<body style="margin:0; padding:0; mso-line-height-rule: exactly; background-color:#3D8500; width: 100%;">
+                <body style="margin:0; padding:0; mso-line-height-rule: exactly; background-color:#65d305; width: 100%;"></body>
 
 
 <center>
@@ -372,10 +379,10 @@
                                 <tr>
                                     <td align="center" class="imgresize80 img">
                                 <!-- IF IMAGE IS AN ILLUSTRATION THAT SHOULDN'T HAVE A DROP SHADOW, REPLACE THE LINES BELOW WITH THIS: 
-                                     <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
-                                        <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/COVER-ANIMATED.gif" width="100%" height="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
+                                     <img src="https://placehold.co/800x1000.jpg" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
+                                        <img src="https://placehold.co/800x1000.jpg" width="100%" height="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
                                     </td>
-                              <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                              <!--SPACER--><tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 </tr>
                             </table>
                             </td>
@@ -388,7 +395,7 @@
 				<table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
 					<td align="center" valign="top">
 								<h1 class="h1-text-resize mobile-280" style="font-family: 'lust', Georgia, serif; font-weight: 700; font-style: normal; display: inline-block; font-size: 50px; line-height: 50px; color: #e7e7e7; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal;">
-									<span style="color: #e7e7e7;"><font color="#e7e7e7" <font face="'lust', Georgia, serif">Call to <accent2>action!</accent2></font></span></h1>
+									<span style="color: #e7e7e7;"><font color="#e7e7e7" <font face="'lust', Georgia, serif">Call to <accentSite>action!</accentSite></font></span></h1>
                             </td>
                             <!-- SPACER BELOW HEADLINE -->
 				                <tr>
@@ -523,10 +530,10 @@
                                     <!-- BUTTON -->
                                     <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
-                                            <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="2px solid #ffffff" border-radius="4px" style="border: 2px solid #ffffff; border-radius: 4px;">
+                                            <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
                                                 <tbody><tr>
-                                                     <td align="center " style="font-family: Helvetica, Arial, sans-serif; background-color:#1C1E22; color:#ffffff; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; font-size:12px;">
-                                                        <a href="https://reader.tt.nj.com" target="_blank" class="button"  style="padding:9px 4px; min-width:86px; display:block; text-decoration:none; text-align:center; font-size:12px; color:#ffffff; background:#1C1E22; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; "><font style="color:#ffffff;">See it now!</font></a></td>
+                                                     <td align="center" style="font-family: Helvetica, Arial, sans-serif; background-color:#1C1E22; color:#ffffff; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; font-size:12px;">
+                                                        <a href="https://reader.tt.nj.com" target="_blank" class="button"  style="padding:9px 4px; min-width:86px; display:block; text-decoration:none; text-align:center; font-size:12px; color:#ffffff; background:#1C1E22; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 2px solid #ffffff;"><font style="color:#ffffff;">See it now!</font></a></td>
                                                 </tr></tbody>
                                             </table>
                                             <!--SPACER BELOW BUTTON--><tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -569,8 +576,8 @@
                                     <table class="mobile-260" role="presentation" width="330" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
                                             <!--SPACER--><tr><td height="35" class="" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                            <td width="100%" align="center"style="padding: 0px; border-top: 1px solid #3D8500;"></td>
-                                            <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                            <td width="100%" align="center"style="padding: 0px; border-top: 1px solid #242424;"></td>
+                                            <!--SPACER--><tr><td height="15" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                         </td>
                                     </table>
                                 </td>
@@ -579,23 +586,23 @@
                         <!-- START FOOTER CONTACTS 400 -->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <td align="center" valign="top">
-                                        <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#3D8500; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility" class="small-text-resize">
-                                            <a rel="noopener" href="mailto:digitalservice@nj.com?subject=Please%20help%20me with%20The Times" target="_top" class="mobileOff hoverClicks"style="color:#3D8500; text-decoration: none;">&nbsp; Help &nbsp;</a><div style="display: inline; color: #3D8500;" class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
-                                            <a rel="noopener" href="https://www.nj.com/interact/page/contact_us_information_user_services_and_more_on_njcom.html" target="_blank" class="hoverClicks "style="color:#3D8500; text-decoration: none;">&nbsp; Contacts &nbsp;</a><div style="display: inline; color: #3D8500;" class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
-                                            <a rel="noopener" href="https://www.nj.com/printsubscription/faq/TT" target="_blank" class="hoverClicks "style="color:#3D8500; text-decoration: none;">&nbsp; FAQs &nbsp;</a><div style="display: inline; color: #3D8500;" class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
-                                            <a rel="noopener" href="https://www.nj.com/privacy-policy/" target="_blank" class="hoverClicks "style="color:#3D8500; text-decoration: none;">&nbsp; Privacy &nbsp;</a><div style="display: inline; color: #3D8500;" class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
-                                            <a rel="noopener" href="https://myaccount.nj.com" target="_blank" class="hoverClicks " style="color:#3D8500; text-decoration: none;">&nbsp; Account &nbsp;</a> 
+                                        <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 600; text-align: center; text-wrap: balance; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility" class="small-text-resize">
+                                            <a rel="noopener" href="mailto:digitalservice@nj.com?subject=Please%20help%20me with%20The Times" target="_top" class="mobileOff hoverClicks"style="color:#242424; text-decoration: none;">&nbsp; Help &nbsp;</a><div style="display: inline; color: #65d305;"class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
+                                            <a rel="noopener" href="https://www.nj.com/interact/page/contact_us_information_user_services_and_more_on_njcom.html" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; Contacts &nbsp;</a><div style="display: inline; color: #65d305;"class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
+                                            <a rel="noopener" href="https://www.nj.com/printsubscription/faq/TT" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; FAQs &nbsp;</a><div style="display: inline; color: #65d305;"class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
+                                            <a rel="noopener" href="https://www.nj.com/privacy-policy/" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; Privacy &nbsp;</a><div style="display: inline; color: #65d305;"class="mobileOff hoverRule"> &nbsp;|&nbsp; </div>
+                                            <a rel="noopener" href="https://myaccount.nj.com" target="_blank" class="hoverClicks " style="color:#242424; text-decoration: none;">&nbsp; Account &nbsp;</a> 
                                         </td>    
                                 </td>
                             </table>
                             <!-- END FOOTER CONTACTS 400-->
-                            <!-- START FOOTER RULE 400 ABOVE RIBBON-->
+                            <!-- START FOOTER RULE 400 BELOW RIBBON-->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <td align="center" valign="top">
                                     <table class="mobile-260" role="presentation" width="330" cellpadding="0" cellspacing="0" border="0">
                                         <td align="center" valign="top">
-                                            <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                            <td width="100%" align="center"style="padding: 0px; border-top: 1px solid #3D8500;"></td>
+                                            <!--SPACER--><tr><td height="15" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                            <td width="100%" align="center"style="padding: 0px; border-top: 1px solid #242424;"></td>
                                             <!--SPACER--><tr><td height="55" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                         </td>
                                     </table>
@@ -612,7 +619,7 @@
                                             width="" attribute must be set -->
                                             <a rel="noopener" href="https://reader.tt.nj.com" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/si3/zoz/8ph/FOOTERLOGO_NJ_Trenton.png" width="260" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Times logo" /></a>
                                         </td>
-                                        <!--SPACER--><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                        <!--SPACER--><tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     </table>
                                 <!-- END FOOTER LOGO 200-->
                                 </td>
@@ -623,9 +630,9 @@
                             <!-- START APP PROMPT-->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <td align="center" valign="top">
-                                    <p class="footer-text-resize" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#3D8500; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">Download the app</p> 
+                                    <p class="footer-text-resize" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; letter-spacing: 0.5;">Download the app</p> 
                                 </td>
-                                <!--SPACER--><tr><td height="15" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                <!--SPACER--><tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                             </table>
                             <!-- END APP PROMPT--> 
 
@@ -677,7 +684,7 @@
                                         <td align="center" valign="top">
                                             <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                             <!--SPACER MOBILE--><tr><td height="25" class="desktopOff mobileOn" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                            <td width="100%" align="center"style="padding: 10px 0px 10px 0px; border-top: 1px solid #3D8500;"></td>
+                                            <td width="100%" align="center"style="padding: 10px 0px 10px 0px; border-top: 1px solid #242424;"></td>
                                         </td>
                                     </table>
                                 </td>
@@ -685,9 +692,9 @@
                             <!-- END FOOTER RULE 400-->
                             <!-- START FOOTER ADDRESS 400-->
                                 <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                                    <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#3D8500; font-size:12px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
-                                        <p style="color:#3D8500; display: inline; "><strong>The Times<!--Z-->. </strong>485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009.</p>
-                                        <p style="color:#3D8500; display: inline; font-weight: 500; filter: opacity(70%);">You received this email because you are a subscriber to <a rel="noopener" href="https://www.NJ.com/" class="hovertext"  target="_blank" style="color:#3D8500; text-decoration:none;">NJ.com</a> or <a rel="noopener" href="https://reader.tt.nj.com" class="hovertext"  target="_blank" style="color:#3D8500; text-decoration:none;">The Times</a>. Click here to<a rel="noopener" href="{optout_confirm_url + '&list_param=' + blast.list}" class="hoverText"  target="_blank" style="color:#3D8500; text-decoration:underline;"> Unsubscribe.</a></p>
+                                    <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
+                                        <p style="color:#242424; display: inline; "><strong>The Times<!--Z-->. </strong>485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009.</p>
+                                        <p style="color:#242424; display: inline; font-weight: 500; filter: opacity(70%);">You received this email because you are a subscriber to <a rel="noopener" href="https://www.NJ.com/" class="hovertext"  target="_blank" style="color:#242424; text-decoration:none;">NJ.com</a> or <a rel="noopener" href="https://reader.tt.nj.com" class="hovertext"  target="_blank" style="color:#242424; text-decoration:none;">The Times</a>. Click here to<a rel="noopener" href="{optout_confirm_url + '&list_param=' + blast.list}" class="hoverText"  target="_blank" style="color:#242424; text-decoration:underline;"> Unsubscribe.</a></p>
                                         <!--SPACER--><tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     </td>
                                 </table>
@@ -695,7 +702,7 @@
 
                             <!-- START FOOTER ADDRESS 400-->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                                <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#3D8500; font-size:12px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
+                                <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
                                     <p style="font-weight: 900; text-transform: uppercase;display: inline;">Questions? </p> 
                                     <p style="text-transform: uppercase; display: inline;"> Call or email</p> 
                                     <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -707,10 +714,10 @@
                                 <td align="center" valign="top">                             
                                     <table class="mobile-200" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                         <td align="right" valign="top">
-                                            <a rel="noopener" href="mailto: digitalservice@nj.com?subject=Please%20help%20me with%20The Times" target="_top"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/4aw/z38/hpi/HELP_email.png" width="75px" height="75px" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#3D8500; background:transparent; mso-line-height-rule:exactly; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;  mix-blend-mode: multiply;" class="helpButton" alt="Email digitalservice@nj.com"/></a>
+                                            <a rel="noopener" href="mailto: digitalservice@nj.com?subject=Please%20help%20me with%20The Times" target="_top"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/kgv/bjt/7hn/HELP_email_1.png" width="75px" height="75px" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#242424; background:transparent; mso-line-height-rule:exactly; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;  " class="helpButton" alt="Email digitalservice@nj.com"/></a>
                                         </td>
                                         <td align="left" valign="top">
-                                            <a rel="noopener" href="tel:18006933548" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/8zq/zzx/mog/HELP_phone.png" width="75px" height="75px" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#3D8500; background:transparent; mso-line-height-rule:exactly; -moz-border-radius: 50px; -webkit-border-radius: 50px;  border-radius: 50px; mix-blend-mode: multiply;" class="helpButton" alt="Call 18006933548"/></a>
+                                            <a rel="noopener" href="tel:18006933548" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/swh/6in/jwc/HELP_phone_1.png" width="75px" height="75px" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#242424; background:transparent; mso-line-height-rule:exactly; -moz-border-radius: 50px; -webkit-border-radius: 50px;  border-radius: 50px; " class="helpButton" alt="Call 18006933548"/></a>
                                         </td>
                                     </table>
                                 </td>
@@ -720,7 +727,7 @@
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <!--SPACER--><tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 <td align="center" valign="top">
-                                    <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size:7px; line-height:1.4; -webkit-text-size-adjust: none; color: #3D8500;">©2025. Advance Local. All rights reserved.</p>
+                                    <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size:7px; line-height:1.4; -webkit-text-size-adjust: none; color: #242424;">©2025. Advance Local. All rights reserved.</p>
                                 </td>
                                 <!--SPACER--><tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                             </table>
